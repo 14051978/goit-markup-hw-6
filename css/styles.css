@@ -927,12 +927,21 @@ color: #2E2F42;
     padding: 8px 24px;
     background-color: var(--accent-color);
     border-radius: 4px;
-    gap: 16px;
+    
 }
 .sub-input::placeholder{
     color: var(--primary-white);
 }
+.button-text{
+    font-size: 16px;
+    line-height: 1.5;
 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
  
  
 
