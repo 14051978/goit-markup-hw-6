@@ -929,6 +929,9 @@ color: #2E2F42;
     border-radius: 4px;
     gap: 16px;
 }
+.sub-input::placeholder{
+    color: var(--primary-white);
+}
 
  
  
