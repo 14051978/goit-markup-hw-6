@@ -916,18 +916,18 @@ color: #2E2F42;
     color: #FFFFFF;
  }
  .footer-wrapper{
-   display:flex;
+
    margin-left: auto;
  }
     
     
 
 .sub-button{
-display:flex;
-flex-direction: row;
-padding: 8px 24px;
-background-color: var(--accent-color);
-border-radius: 4px;
+    display:flex;
+    flex-direction: row;
+    padding: 8px 24px;
+    background-color: var(--accent-color);
+    border-radius: 4px;
 }
 
  
