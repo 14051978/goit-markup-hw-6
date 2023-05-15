@@ -881,14 +881,10 @@ color: #2E2F42;
     
  }
  .sub-label{
-    box-sizing: border-box;
-    border: 1px solid #ffffff;
     border: 1px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    margin-left: 80px;
-    position: absolute;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 
@@ -896,24 +892,18 @@ color: #2E2F42;
  .sub-input{
     display:inline-flex;
     flex-direction: row;
-    position: absolute;
     top: 0;
     left: 0;
     gap: 16px;
     align-items: center;
-    
     width: 264px;
     height: 40px;
     background-color: transparent;
 
  }
  .footer-form-title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left:80px;
+    
     margin-bottom: 16px;
-    position: relative;
     top: 0;
     left: 0;
     font-family: 'Roboto';
@@ -926,20 +916,19 @@ color: #2E2F42;
     color: #FFFFFF;
  }
  .footer-wrapper{
-   display: block;
+   display:flex;
+   margin-left: auto;
  }
     
     
 
 .sub-button{
-display:inline-flex;
+display:flex;
 flex-direction: row;
 padding: 8px 24px;
-margin-left: auto;
 background-color: var(--accent-color);
 border-radius: 4px;
 }
-
 
  
  
