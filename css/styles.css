@@ -931,6 +931,15 @@ color: #2E2F42;
 }
 .sub-input::placeholder{
     color: var(--primary-white);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
 .button-text{
     font-size: 16px;
@@ -941,6 +950,9 @@ color: #2E2F42;
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+}
+.footer-svg{
+    margin-left: 16px;
 }
  
  
