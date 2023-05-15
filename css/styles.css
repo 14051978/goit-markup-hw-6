@@ -878,7 +878,6 @@ color: #2E2F42;
     display: flex;
     
     
-    
  }
  .sub-label{
     border: 1px solid #FFFFFF;
@@ -916,7 +915,7 @@ color: #2E2F42;
     color: #FFFFFF;
  }
  .footer-wrapper{
-
+   display: flex;
    margin-left: auto;
  }
     
