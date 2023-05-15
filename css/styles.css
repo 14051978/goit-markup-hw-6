@@ -810,7 +810,7 @@ color: #2E2F42;
 }
 .form-field:focus +.form-icon{
     fill: var(--hover-color);
-    transition: 250ms;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
  .form-comment{
     display: block;
@@ -832,7 +832,7 @@ color: #2E2F42;
  .form-comment:focus{
     outline: 1px solid
     var(--hover-color);
-    transition: 250ms;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  } 
  .form-agreement{
     display: flex;
@@ -854,7 +854,7 @@ color: #2E2F42;
     background-position: center;
     background-repeat: no-repeat;
 
-    transition: 250ms;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
  .form-check-input:checked{
     background-color: var(--accent-color);
@@ -905,7 +905,7 @@ color: #2E2F42;
  .sub-input:focus{
     outline: 1px solid
     var(--hover-color);
-    transition: 250ms;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .footer-form-title{
     
