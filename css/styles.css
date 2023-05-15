@@ -898,7 +898,13 @@ color: #2E2F42;
     width: 264px;
     height: 40px;
     background-color: transparent;
+    outline-color: transparent;
 
+ }
+ .sub-input:focus{
+    outline: 1px solid
+    var(--hover-color);
+    transition: 250ms;
  }
  .footer-form-title{
     
@@ -927,7 +933,7 @@ color: #2E2F42;
     padding: 8px 24px;
     background-color: var(--accent-color);
     border-radius: 4px;
-    
+    margin-left: 24px;
 }
 .sub-input::placeholder{
     color: var(--primary-white);
