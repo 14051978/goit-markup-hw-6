@@ -723,8 +723,7 @@ margin-right: 120px;
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding-top: 72px;
-    padding: 24px;
+    padding: 72px 24px 24px 24px;
 }
 .close-button{
     position: absolute;
@@ -748,8 +747,8 @@ margin-right: 120px;
 .close-button:hover,
 .close-button:focus {
 background-color: #404bbf;
-border: none;
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+border-color:transparent;
+
  }
 
  .modal-close-icon{
@@ -759,11 +758,10 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .close-button:focus .modal-close-icon {
 
     fill: #ffffff;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .modal-title{
 display: block; 
-margin-top: 48px;
 margin-bottom: 16px; 
 font-style: normal;
 font-weight: 500;
@@ -885,7 +883,7 @@ color: #2E2F42;
  .sub-label{
     
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
+    
     align-items: center;
     justify-content: center;
     outline-color: transparent;
@@ -893,29 +891,24 @@ color: #2E2F42;
  }
  .sub-input{
     border: 1px solid #FFFFFF;
-    display:flex;
-    flex-direction: row;
-    top: 0;
-    left: 0;
-    gap: 16px;
-    align-items: center;
+    border-radius: 4px;
     width: 264px;
     height: 40px;
     background-color: transparent;
     outline-color: transparent;
     color: #F4F4FD;
-    padding-left: 8px;
+    padding: left 16px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .sub-input:focus{
     outline: 1px solid;
     border-color:var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
  }
  .footer-form-title{
     
     margin-bottom: 16px;
-    top: 0;
-    left: 0;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -938,14 +931,22 @@ color: #2E2F42;
     background-color: var(--accent-color);
     border-radius: 4px;
     margin-left: 24px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-
+    border: none;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: #FFFFFF;
+
+}
+.sub-button:hover,
+.sub-button:focus{
+    background-color:var(--hover-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sub-input::placeholder{
     color: var(--primary-white);
