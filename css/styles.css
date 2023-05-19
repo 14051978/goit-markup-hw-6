@@ -201,8 +201,7 @@ address {
 }
 .contacts-list{
     display: flex;
-    padding: 24px 0 24px;
-    margin-right: 40px;
+
 }
 
 .contacts-link{
